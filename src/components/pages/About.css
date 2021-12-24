@@ -1,0 +1,51 @@
+.title {
+    font-size: 25px;
+    color: #000;
+    font-family: 'Merriweather', 'Times New Roman';
+    padding-top: 10px;
+    
+}
+
+.descriptionabout
+{
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    min-width: 750px;
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    display: flex;
+    justify-content: column;
+
+
+
+}
+
+.descriptioncont
+{
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    min-width: 750px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+
+
+}
+
+.descriptionphoto {
+height: 400px;
+vertical-align: top;
+float: left;
+width: 500px;
+padding: 50px;
+
+}
+
+
+
+
