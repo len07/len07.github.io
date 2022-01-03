@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c805fc71.css",
+    "main.js": "/static/js/main.f7c3574b.js",
+    "static/media/IMG_4374.jpeg": "/static/media/IMG_4374.a6e3c8f0772e7411018a.jpeg",
+    "static/media/cruisesea.jpg": "/static/media/cruisesea.105502e389f6f1fef52d.jpg",
+    "static/media/cambodiacropped.jpg": "/static/media/cambodiacropped.17528e73ee90c71e2de6.jpg",
+    "index.html": "/index.html",
+    "main.c805fc71.css.map": "/static/css/main.c805fc71.css.map",
+    "main.f7c3574b.js.map": "/static/js/main.f7c3574b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c805fc71.css",
+    "static/js/main.f7c3574b.js"
+  ]
+}
