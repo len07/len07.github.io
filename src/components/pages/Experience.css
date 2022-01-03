@@ -40,6 +40,18 @@
     font-weight: bolder;
 }
 
+.column {
+    float: left;
+    width: 45%;
+    height: 500px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 .jobtitle
 {
     font-size: 20px;
@@ -70,9 +82,9 @@
     height: 220px;
     float: left;
     width: 500px;
-    display: table;
-    vertical-align: middle;
     padding: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     
     }
 
@@ -83,5 +95,5 @@
     display: table;
     vertical-align: middle;
     padding: 50px;
-        
+    margin-bottom: 50px;
      }

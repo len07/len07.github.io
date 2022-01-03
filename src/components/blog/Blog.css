@@ -1,0 +1,128 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  padding: 20px;
+  margin-top: 55px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #eee2dc;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #123c69;
+  padding: 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.card2 {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  margin-top: 1px;
+}
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fffefe;
+  text-align: left;
+}
+
+.description {
+  font-size: 18px;
+    text-align: left;
+    margin: auto;
+    max-width: 600px;
+    min-width: 750px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+}
+.blog-text .blog-title:hover{
+  color: #ac3b61;
+  transition: all-ease 0.3s;
+
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  margin-top: 10px;
+}
+
+.link-icon3 {
+  color: #123c69;
+    height: 28px;
+    width: 500px;
+    position: relative;
+    top: 45px;
+    margin-right: 10px;
+    display: flex;
+}
+.post-content-view,
+.blog {
+  padding: 40px;
+  width: 600px;
+  max-width: 100%;
+  margin: auto;
+}
+ 
+.post-listing {
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px;
+  font-size: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+  @media screen and (max-width: 820px) {
+   
+    .link-icon {
+      flex-direction: column;
+    }
+    .footer {
+      width: 100%;
+    }
+  }
+}

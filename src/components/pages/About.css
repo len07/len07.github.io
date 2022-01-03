@@ -38,11 +38,13 @@
 }
 
 .descriptionphoto {
-height: 400px;
+height: 600px;
 vertical-align: top;
 float: left;
 width: 500px;
-padding: 50px;
+padding: 30px;
+margin-right: 30px;
+position: relative;
 
 }
 

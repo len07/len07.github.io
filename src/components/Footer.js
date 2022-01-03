@@ -2,9 +2,9 @@ import React from 'react'
 
 import './Footer.css';
 import {MdEmail} from 'react-icons/md'; 
-import {HiOutlineDesktopComputer} from 'react-icons/hi';
 import {FaGithub} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
+import {FaInstagramSquare} from 'react-icons/fa';
 
 
 function Footer() {
@@ -32,7 +32,13 @@ function Footer() {
         <h1>alenaluo19@gmail.com </h1>
         </div>
         
-        
+        <a href="https://www.instagram.com/_alenaluo/">
+            <FaInstagramSquare className='link-icon'/> 
+        </a>
+
+        <div className='text'>
+        <h1>alenaluo</h1>
+        </div>
         <a href="https://github.com/len07">
             <FaGithub className='link-icon'/>
         </a>
