@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.65e5e288.css",
-    "main.js": "/website/static/js/main.f7c3574b.js",
-    "static/media/IMG_4374.jpeg": "/website/static/media/IMG_4374.a6e3c8f0772e7411018a.jpeg",
-    "static/media/cruisesea.jpg": "/website/static/media/cruisesea.105502e389f6f1fef52d.jpg",
-    "static/media/cambodiacropped.jpg": "/website/static/media/cambodiacropped.17528e73ee90c71e2de6.jpg",
-    "index.html": "/website/index.html",
-    "main.65e5e288.css.map": "/website/static/css/main.65e5e288.css.map",
-    "main.f7c3574b.js.map": "/website/static/js/main.f7c3574b.js.map"
+    "main.css": "/len07.github.io/static/css/main.63e6eaea.css",
+    "main.js": "/len07.github.io/static/js/main.b5f4a904.js",
+    "static/media/IMG_4374.jpeg": "/len07.github.io/static/media/IMG_4374.a6e3c8f0772e7411018a.jpeg",
+    "static/media/cruisesea.jpg": "/len07.github.io/static/media/cruisesea.105502e389f6f1fef52d.jpg",
+    "static/media/cambodiacropped.jpg": "/len07.github.io/static/media/cambodiacropped.17528e73ee90c71e2de6.jpg",
+    "index.html": "/len07.github.io/index.html",
+    "main.63e6eaea.css.map": "/len07.github.io/static/css/main.63e6eaea.css.map",
+    "main.b5f4a904.js.map": "/len07.github.io/static/js/main.b5f4a904.js.map"
   },
   "entrypoints": [
-    "static/css/main.65e5e288.css",
-    "static/js/main.f7c3574b.js"
+    "static/css/main.63e6eaea.css",
+    "static/js/main.b5f4a904.js"
   ]
 }
