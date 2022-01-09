@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbdda6cc.css",
+    "main.css": "/static/css/main.333886e5.css",
     "main.js": "/static/js/main.8586e0f8.js",
     "static/media/IMG_4374.jpeg": "/static/media/IMG_4374.a6e3c8f0772e7411018a.jpeg",
     "static/media/cruisesea.jpg": "/static/media/cruisesea.105502e389f6f1fef52d.jpg",
     "index.html": "/index.html",
-    "main.dbdda6cc.css.map": "/static/css/main.dbdda6cc.css.map",
+    "main.333886e5.css.map": "/static/css/main.333886e5.css.map",
     "main.8586e0f8.js.map": "/static/js/main.8586e0f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbdda6cc.css",
+    "static/css/main.333886e5.css",
     "static/js/main.8586e0f8.js"
   ]
 }
