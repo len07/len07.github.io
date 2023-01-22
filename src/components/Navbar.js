@@ -52,7 +52,7 @@ window.addEventListener('resize', showButton);
                   </Link>
               </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' onClick={()=>window.open('https://drive.google.com/file/d/1l2AdnVnDVfyPTZt_p90kN_sgNkizA3nD/view?usp=sharing')}>Resume</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={()=>window.open('https://drive.google.com/file/d/1SaoIpXQUI3KBrlU17MYgcdtFhGfKAnRI/view?usp=sharing')}>Resume</Button>}
         </div>
       </nav>
     </>
