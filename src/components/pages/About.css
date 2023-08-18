@@ -1,0 +1,103 @@
+
+.about {
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #eee2dc;
+}
+
+.about img{
+    height: auto;
+    width: 30%;
+
+}
+
+.about-text{
+    width: 65%;
+    float: center;
+}
+
+.main{
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 60%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: #000;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+
+button{
+    background: #123c69;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+
+
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid #eee2dc;
+    cursor: pointer;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 800px) {
+    .about{
+      width: 100%;
+      height: 50%;
+      padding: 0;
+    }
+    .main {
+        width: 100%;
+        padding: 0;
+    }
+    .about-text{
+        width: 100%;
+        height: 80%
+    }
+}
+ 
+    
