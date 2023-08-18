@@ -1,15 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.333886e5.css",
-    "main.js": "/static/js/main.8586e0f8.js",
-    "static/media/IMG_4374.jpeg": "/static/media/IMG_4374.a6e3c8f0772e7411018a.jpeg",
+    "main.css": "/static/css/main.781a5433.css",
+    "main.js": "/static/js/main.701580ae.js",
+    "static/media/math135.jpg": "/static/media/math135.45ab17294d70fb0a2cc0.jpg",
+    "static/media/tandembike.JPG": "/static/media/tandembike.adf86b491ac0ded9569a.JPG",
+    "static/media/hike.jpeg": "/static/media/hike.c9a75f335df1f836b057.jpeg",
+    "static/media/lobsterroll.jpeg": "/static/media/lobsterroll.3e0ca27f26b71f21a6f5.jpeg",
+    "static/media/factoryworker.jpeg": "/static/media/factoryworker.1b1242d0c4aea7e8e4dc.jpeg",
+    "static/media/toyshop.JPG": "/static/media/toyshop.8d1073936ad2b7d1628e.JPG",
+    "static/media/friedoysters.jpeg": "/static/media/friedoysters.a1f95bc1228282a7cc8c.jpeg",
+    "static/media/gym.jpeg": "/static/media/gym.921b699bfcd7130fada5.jpeg",
+    "static/media/camb.jpeg": "/static/media/camb.c1d3ccf42d99aa44d025.jpeg",
+    "static/media/localhouse.jpeg": "/static/media/localhouse.ea39efec6cffd7de40fc.jpeg",
+    "static/media/busstop.jpeg": "/static/media/busstop.ed7d363c0ee3a7f93feb.jpeg",
+    "static/media/lookoutpoint.jpeg": "/static/media/lookoutpoint.5c9666cf0bba28f52d9f.jpeg",
+    "static/media/scienceworld.jpeg": "/static/media/scienceworld.87470cfdb758eb462220.jpeg",
+    "static/media/cake.jpeg": "/static/media/cake.d8edf00ae9b6778ef954.jpeg",
+    "static/media/canadaplace.jpeg": "/static/media/canadaplace.f23cfcf1d0f6a84e50b8.jpeg",
+    "static/media/flightback.jpeg": "/static/media/flightback.2f5f826b9c230b04a260.jpeg",
+    "static/media/vancouver.jpeg": "/static/media/vancouver.68de9ee19fcbd919f1be.jpeg",
+    "static/media/IMG_2033.jpeg": "/static/media/IMG_2033.f6cdd5307558fb938672.jpeg",
+    "static/media/kftea.jpg": "/static/media/kftea.c8746d9a8a4a8a81d2be.jpg",
     "static/media/cruisesea.jpg": "/static/media/cruisesea.105502e389f6f1fef52d.jpg",
+    "static/media/seafoodboil.JPG": "/static/media/seafoodboil.ae779793c8fca0883d35.JPG",
+    "static/media/groupphoto.JPG": "/static/media/groupphoto.cb9c7cfb9e410d12e0a9.JPG",
+    "static/media/vball.jpg": "/static/media/vball.18bdc02b6f8777e9fb5e.jpg",
+    "static/media/resources.JPG": "/static/media/resources.879b33c5baf36d8fe31f.JPG",
     "index.html": "/index.html",
-    "main.333886e5.css.map": "/static/css/main.333886e5.css.map",
-    "main.8586e0f8.js.map": "/static/js/main.8586e0f8.js.map"
+    "main.781a5433.css.map": "/static/css/main.781a5433.css.map",
+    "main.701580ae.js.map": "/static/js/main.701580ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.333886e5.css",
-    "static/js/main.8586e0f8.js"
+    "static/css/main.781a5433.css",
+    "static/js/main.701580ae.js"
   ]
 }
