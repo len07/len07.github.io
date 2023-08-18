@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.781a5433.css",
-    "main.js": "/static/js/main.701580ae.js",
+    "main.css": "/static/css/main.f5e4be83.css",
+    "main.js": "/static/js/main.9e95ecda.js",
     "static/media/math135.jpg": "/static/media/math135.45ab17294d70fb0a2cc0.jpg",
     "static/media/tandembike.JPG": "/static/media/tandembike.adf86b491ac0ded9569a.JPG",
     "static/media/hike.jpeg": "/static/media/hike.c9a75f335df1f836b057.jpeg",
@@ -27,11 +27,11 @@
     "static/media/vball.jpg": "/static/media/vball.18bdc02b6f8777e9fb5e.jpg",
     "static/media/resources.JPG": "/static/media/resources.879b33c5baf36d8fe31f.JPG",
     "index.html": "/index.html",
-    "main.781a5433.css.map": "/static/css/main.781a5433.css.map",
-    "main.701580ae.js.map": "/static/js/main.701580ae.js.map"
+    "main.f5e4be83.css.map": "/static/css/main.f5e4be83.css.map",
+    "main.9e95ecda.js.map": "/static/js/main.9e95ecda.js.map"
   },
   "entrypoints": [
-    "static/css/main.781a5433.css",
-    "static/js/main.701580ae.js"
+    "static/css/main.f5e4be83.css",
+    "static/js/main.9e95ecda.js"
   ]
 }
