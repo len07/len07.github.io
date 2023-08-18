@@ -1,24 +1,36 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import Typical from 'react-typical'
 import './HeroSection.css';
 
 function HeroSection () {
     return (
         <div className='hero-container'> 
-            <video src="/Videos/Video1.mp4" autoPlay loop muted />
-            <h1>ALENA LUO</h1>
-            <p>Get to know me!</p>
-            <div className='hero-btns'>
-                <Button className='btns'
-                buttonStyle='btn--outline'
-                buttonSize='btn--large'
-                >
-         
-                 {Button && <Button buttonStyle='btn--outline' onClick={()=>window.open('https://www.youtube.com/watch?v=3wnpQFgJuh8')}>WATCH VIDEO</Button>}
-                </Button>
+            <img className="heroimage" src="images/IMG_2196.jpeg" alt="DescriptionPhoto"></img>
+            <h1>ALENA <h1 className="highlighted-text"> LUO</h1></h1> 
+            <span className='primary-text'>
+                {" "}
+                <h1>
+                {" "}
+                <Typical
+                loop={Infinity}
+                steps={[
+                    "Passionate Coder 💻",
+                    1000,
+                    "Waterloo CS Student",
+                    1000,
+                    "Aspiring Leader ⛳️",
+                    1000,
+                    "Linguaphile🔤",
+                    1000,
+                    
+
+                ]}
+                />
+                </h1>
                 
-            </div>
+                
+            </span>
     
             </div>
      

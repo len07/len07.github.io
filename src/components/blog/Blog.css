@@ -26,35 +26,58 @@ body {
   padding-left: 20px;
   padding: 20px;
   margin-top: 55px;
+  color: #123c69;
 }
 
 /* Fake image */
 .fakeimg {
-  background-color: #eee2dc;
-  width: 100%;
-  padding: 20px;
+  width: 50%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: #123c69;
+  /* background-color: #eee2dc; */
   padding: 20px;
-  margin-top: 20px;
-  color: #fff;
+  margin-top: 10px;
+  color: #123c69;
 }
 
+.cards {
+  display: block;
+  border-radius: 10px;
+}
 .card2 {
   background-color: rgba(255, 255, 255, 0);
-  padding: 20px;
-  margin-top: 1px;
+  /* padding: 20px; */
+  margin-top: 17px;
+  max-width: 1300px;
+  margin: 0 auto
 }
 .blog-text .blog-title {
   font-size: 1.3rem;
   font-weight: 500;
-  color: #fffefe;
-  text-align: left;
+  color: #123c69;
+  text-align: center;
 }
 
+.post {
+  font-size: medium;
+  color:#123c69;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto
+
+
+}
+
+.group {
+  display: flex;
+  margin-left: 450px;
+}
 .description {
   font-size: 18px;
     text-align: left;
@@ -68,6 +91,11 @@ body {
 .blog-text .blog-title:hover{
   color: #ac3b61;
   transition: all-ease 0.3s;
+
+}
+
+.card_image {
+  width: 400px;
 
 }
 /* Clear floats after the columns */
@@ -87,12 +115,12 @@ body {
 
 .link-icon3 {
   color: #123c69;
-    height: 28px;
-    width: 500px;
-    position: relative;
-    top: 45px;
-    margin-right: 10px;
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
 }
 .post-content-view,
 .blog {
@@ -110,7 +138,6 @@ body {
   font-size: 10px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {
     width: 100%;

@@ -1,15 +1,3 @@
-// import React from 'react';
-// import './Button.css';
-// import { Link } from 'react-router-dom';
-
-// export function Button() {
-//   return (
-//     <Link to='Resume'>
-//       <button className='btn'>Resume</button>
-//     </Link>
-//   );
-// }
-
 import React from 'react';
 import './Button.css';
 

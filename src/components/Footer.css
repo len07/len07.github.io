@@ -9,7 +9,7 @@
 
 .footer-subscription {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -116,12 +116,14 @@
 }
 
 .link-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
     color: #fff;
-    height: 28px;
-    width: 1100px;
-    position: relative;
-    top: 30px;
-    margin-right: 10px;
+
 }
 
 .text {

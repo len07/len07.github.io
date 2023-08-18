@@ -3,41 +3,57 @@ import { Link } from "react-router-dom";
  
 function Posts() {
  return (
-   <div className="leftcolumn">
-     <div className="card">
-   <div class="blog-text">
-     <Link to="/blog/MyFirstSemesteratWaterlooCS">
-     
-         <h1 class="blog-title">My First Semester at Waterloo CS</h1>
-         <img className='fakeimg'src="images/math135.jpg" alt="FakeImg"></img>
-        
-         <div class="blog-text">   
-           <p>
-           Overall an incredibly humbling and eye-opening term. I feel that I learned the most in Algebra,
-         followed by CS135 and Calc....
-           </p>
-         </div>
-      
-     </Link>
-   </div>
- </div>
- <div className="card">
-   <div class="blog-text">
-     <Link to="/blog/MissionCambodia:OneWeekVolunteering">
-     
-         <h1 class="blog-title">Mission Cambodia: One Week Volunteering</h1>
-         <img className='fakeimg'src="images/CambodiaKids.jpeg" alt="FakeImg"></img>
-        
-         <div class="blog-text">   
-           <p>
-           Volunteering in Cambodia was a once in a lifetime experience that I was fortunate enough to partake in....
-           </p>
-         </div>
-      
-     </Link>
-   </div>
- </div>
- </div>
+  <div className='cards'>
+  
+  <div className="cards__container">
+      <div className="cards__wrapper">
+          <ul className="cards__items">
+            <li className='cards__item'>
+              <Link className='cards__item__link' to="/blog/MyFirstSemesteratWaterlooCS">
+                  <figure className="cards__item__pic-wrap" data-category="EDUCATION">
+                      <img 
+                        src="images/math135.jpg"
+                        alt="Alena"
+                        className='cards__item__img' 
+                      />
+                  </figure>
+                  <div className='cards__item__info'>
+                      <h5 className='cards__item__text'>My First Semester at Waterloo CS</h5> 
+                  </div>
+              </Link>
+            </li>
+            <li className='cards__item'>
+              <Link className='cards__item__link' to="/blog/Cambodiavolunteering">
+                  <figure className="cards__item__pic-wrap" data-category="SOCIAL ISSUES">
+                      <img 
+                        src="images/CambodiaKids.jpg"
+                        alt="Alena"
+                        className='cards__item__img' 
+                      />
+                  </figure>
+                  <div className='cards__item__info'>
+                      <h5 className='cards__item__text'>Mission Cambodia: One Week Volunteering</h5> 
+                  </div>
+              </Link>
+            </li>
+            <li className='cards__item'>
+              <Link className='cards__item__link' to="/blog/Vancouvertrip">
+                  <figure className="cards__item__pic-wrap" data-category="TRAVEL">
+                      <img 
+                        src="images/lookoutpoint.jpeg"
+                        alt="Alena"
+                        className='cards__item__img' 
+                      />
+                  </figure>
+                  <div className='cards__item__info'>
+                      <h5 className='cards__item__text'>Travel with me to Vancouver</h5> 
+                  </div>
+              </Link>
+            </li>          
+          </ul>
+      </div>
+  </div>
+</div>
    
  );
 }

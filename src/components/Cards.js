@@ -13,19 +13,19 @@ function Cards() {
                      src="images/math135.jpg"
                      text="My First Semester at Waterloo CS"
                      label='Education'
-                     path='/blog/My First Semester at Waterloo CS'
+                     path='/blog/MyFirstSemesteratWaterlooCS'
                      />
                      <CardItem 
                      src="images/CambodiaKids.jpg"
                      text="Mission Cambodia: One Week Volunteering"
                      label='SOCIAL ISSUES'
-                     path='/blog/MissionCambodia:OneWeekVolunteering'
+                     path='/blog/Cambodiavolunteering'
                      />
                      <CardItem 
-                     src="images/oslcview.jpg"
-                     text="High School Experience"
-                     label='EDUCATION'
-                     path='/Blog'
+                     src="images/lookoutpoint.jpeg"
+                     text="Travel with me to Vancouver"
+                     label='TRAVEL'
+                     path='/blog/Vancouvertrip'
                      />
                     
                     </ul>
