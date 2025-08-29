@@ -1,0 +1,40 @@
+.card3d {
+  perspective: 1200px;
+  margin: 2rem 0;
+}
+
+.cardInner {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  padding: 3rem;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(177, 156, 217, 0.1);
+}
+
+.cardInner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--accent-gradient);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.cardInner:hover::before {
+  opacity: 0.03;
+}
+
+.cardInner:hover {
+  transform: rotateX(3deg) rotateY(3deg) translateZ(40px);
+  box-shadow: 0 30px 60px rgba(177, 156, 217, 0.15),
+    0 0 0 1px rgba(230, 179, 255, 0.1);
+}

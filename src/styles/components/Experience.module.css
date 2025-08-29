@@ -1,0 +1,150 @@
+.section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee2dc;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sectionTitle {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 800;
+  background: #123c69;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.experienceGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experienceCard {
+  perspective: 1000px;
+}
+
+.experienceInner {
+  background: rgb(172, 59, 97, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100%;
+  box-shadow: 0 8px 30px rgba(177, 156, 217, 0.08);
+}
+
+.experienceInner:hover {
+  transform: rotateX(2deg) rotateY(2deg) translateZ(20px);
+  box-shadow: 0 20px 40px rgba(177, 156, 217, 0.15);
+}
+
+.experienceHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.experienceInner h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.3rem;
+}
+
+.role {
+  color: #123c69;
+  font-weight: 600;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.experienceDate {
+  background: var(--glass-bg);
+  padding: 0.3rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #123c69;
+  white-space: nowrap;
+}
+
+.description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.projectLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.projectLink {
+  padding: 0.5rem 1rem;
+  background: var(--glass-bg);
+  color: var(--text-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.projectLink:hover {
+  background: var(--accent-gradient);
+  color: white;
+  transform: translateY(-1px);
+}
+
+/* Animations */
+.fadeIn {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.fadeIn.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .experienceGrid {
+    max-width: 100%;
+  }
+
+  .experienceHeader {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  .section {
+    padding: 2rem 1rem;
+  }
+}
