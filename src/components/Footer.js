@@ -25,7 +25,7 @@ function Footer() {
           </a>
         </div>
         <p className={styles.footerText} style={{ color: "white" }}>
-          &copy; 2025 Alena Luo. Built with modern web technologies.
+          &copy; 2025 Alena Luo.
         </p>
       </div>
     </footer>
